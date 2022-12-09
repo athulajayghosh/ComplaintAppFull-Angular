@@ -1,0 +1,35 @@
+
+<section class="vh-100" style="background-color:rgb(240, 240, 240) ;">
+    <div class="container h-100">
+      <div class="row g-3 d-flex justify-content-center align-items-center h-100">
+            <div class="row">
+                <div class="col col-12 col-sm-12 col-lg-12 col-xl-12 col-xxl-12 text-center g-1">
+                    <img src="https://acad.xlri.ac.in/evening/images/login.svg" height="200px" width="200px">
+                    <h1 class="display-4">Please sign in</h1>
+                </div>
+                <div class="col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
+                    <div class="row g-1 justify-content-center align-items-center h-100">
+                        <div class="col col-10 col-sm-10 col-lg-10 col-xl-10 col-xxl-10">
+                            <label for="" class="form-label">Email</label>
+                            <input type="text" name="empUserid" [(ngModel)]="email" class="form-control">
+                        </div>
+                        <div class="col col-10 col-sm-10 col-lg-10 col-xl-10 col-xxl-10">
+                            <label for="" class="form-label">Password</label>
+                            <input type="password" name="empPassword" [(ngModel)]="password" class="form-control ">
+                        </div>
+                        <div class="col col-10 col-sm-10 col-lg-10 col-xl-10 col-xxl-10 text-center g-4">
+                            <a class="btn btn-primary btn-lg shadow w-50" (click)="readvalue()">Login</a>
+                        </div>
+                        <div class="col col-10 col-sm-10 col-lg-10 col-xl-10 col-xxl-10 text-center mt-3">
+                            <a routerLink="/adduser" class="link-primary">New User? Register</a>
+                        </div>
+                        <div class="col col-12 col-sm-12 col-lg-12 col-xl-12 col-xxl-12 text-center mt-3">
+                            <img src="https://toppng.com/uploads/preview/back-icon-back-icon-3-png-blue-11569062163okwqewmwrm.png" height="40px" width="40px" routerLink="/">
+                        </div>
+                        
+                    </div>
+                </div>    
+            </div>
+        </div>
+      </div>
+</section>

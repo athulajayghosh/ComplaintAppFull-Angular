@@ -1,0 +1,60 @@
+<section class="vh-200" style="background-color:rgb(255, 255, 255) ;">
+    <div class="container h-100">
+      <div class="row g-3 d-flex justify-content-center align-items-center h-100 ">
+        <div class="card shadow" style="border-radius: 1rem;width:40rem; margin-top: 2rem; margin-bottom: 2rem;">
+            <div class="row">
+                <div class="col col-12 col-sm-12 col-lg-12 col-xl-12 col-xxl-12 text-center g-4">
+                    <img src="https://icons.veryicon.com/png/o/miscellaneous/two-color-icon-library/user-286.png" width="80px" height="80px">
+                    <h2>New User</h2>
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
+                            <div class="row g-3 justify-content-center align-items-center h-100">
+                                <div class="col col-10 col-sm-10 col-lg-10 col-xl-10 col-xxl-10">
+                                    <label for="" class="form-label">Name</label>
+                                    <input type="text" name="name" [(ngModel)]="name" class="form-control">
+                                </div>
+ 
+                                <div class="col col-10 col-sm-10 col-lg-10 col-xl-10 col-xxl-10">
+                                    <label for="" class="form-label">Mobile No</label>
+                                    <input type="text" name="phoneno" [(ngModel)]="phoneno" class="form-control">
+                                </div>                                
+                                
+                                <div class="col col-10 col-sm-10 col-lg-10 col-xl-10 col-xxl-10">
+                                    <label for="" class="form-label">Email</label>
+                                    <input type="email" name="email" [(ngModel)]="email" class="form-control" placeholder="name@example.com">
+                                </div>
+
+                                <div class="col col-10 col-sm-10 col-lg-10 col-xl-10 col-xxl-10">
+                                    <label for="" class="form-label">User Name</label>
+                                    <input type="text" name="username" [(ngModel)]="username" class="form-control">
+                                </div>
+                                <div class="col col-10 col-sm-10 col-lg-10 col-xl-10 col-xxl-10">
+                                    <label for="" class="form-label">Password</label>
+                                    <input type="password" name="password" [(ngModel)]="password" class="form-control">
+                                </div>
+                                <div class="col col-10 col-sm-10 col-lg-10 col-xl-10 col-xxl-10">
+                                    <label for="" class="form-label">Confirm Password</label>
+                                    <input type="password" name="confirmPassword" [(ngModel)]="confirmpassword" class="form-control">
+                                </div>
+                                <div class="col col-10 col-sm-10 col-lg-10 col-xl-10 col-xxl-10 " >
+                                    <div class="d-grid gap-2 col-6 mx-auto h-5 mt-3" >
+                                        <a class="btn btn-primary" (click)="readEmpData()" type="button" >Register</a>
+                                    </div>
+                                </div>
+                                <div class="col col-10 col-sm-10 col-lg-10 col-xl-10 col-xxl-10 text-center" style="margin-bottom:3rem; ">
+                                    <a routerLink="/userlogin" class="link-primary" >Back to User login</a>
+                                </div>
+
+
+
+                            </div>
+                        </div>
+                    </div>
+                </div> 
+            </div>
+        </div>
+      </div>
+    </div>
+</section>

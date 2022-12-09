@@ -1,0 +1,36 @@
+<section class="vh-100" style="background-color:rgb(244, 244, 244) ;">
+    <div class="container h-100">
+      <div class="row g-3d-flex justify-content-center align-items-center h-100">
+            <div class="row">
+                <div class="col col-12 col-sm-12 col-lg-12 col-xl-12 col-xxl-12 text-center g-1">
+                    <img src="https://www.bharatgeneric.com/login/svg/admin-img.svg" style="max-height: 300px;">
+                    <h1 class="display-4">Admin Login</h1>
+                </div>
+                <div class="col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
+                    <div class="row g-1 justify-content-center align-items-center h-100">
+                        <div class="col col-12 col-sm-12 col-lg-10 col-xl-10 col-xxl-10">
+                            <label for="" class="form-label">Username</label>
+                            <input type="text" name="adminUserid" [(ngModel)]="adminUserid" class="form-control">
+                        </div>
+                        <div class="col col-12 col-sm-12 col-lg-10 col-xl-10 col-xxl-10">
+                            <label for="" class="form-label">Password</label>
+                            <input type="password" name="adminPassword" [(ngModel)]="adminPassword" class="form-control ">
+                        </div>
+                        <div class="col col-12 col-sm-12 col-lg-10 col-xl-10 col-xxl-10 text-center g-4">
+                            <a class="btn btn-primary btn-lg shadow w-50" (click)="adminreadValues()">Login</a>
+                        </div>
+                        <div class="col col-12 col-sm-12 col-lg-12 col-xl-12 col-xxl-12 text-center mt-3">
+                            <div class="col col-12 col-sm-12 col-lg-12 col-xl-12 col-xxl-12 text-center mt-3">
+                                <button routerLink="userlogin" class="btn">User Login</button>
+                            </div>
+                            <div class="col col-12 col-sm-12 col-lg-12 col-xl-12 col-xxl-12 text-center">
+                                <button routerLink="adduser" class="btn">User Register</button>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>    
+            </div>
+        </div>
+      </div>
+</section>
